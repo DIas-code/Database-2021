@@ -18,17 +18,19 @@ select * from course where course_id = some (select course_id from prereq where 
 --e. Find all instructors who work either in Biology, Philosophy, or Music
 --departments;
 --f. Find all instructors who taught in the 2018 year but not in the 2017 year;
-select dept_name from instructor group by dept_name order by avg(salary) asc;
 --a
+select dept_name, avg(salary) from instructor group by dept_name order by avg(salary) asc;
+--b
 SELECT DISTINCT building,count(course_id)
 from (SELECT DISTINCT building,course_id FROM section) as foo GROUP BY building ORDER BY count(course_id) DESC LIMIT 1;
---b
+--c
 select distinct dept_name, count(course_id)  from (select distinct dept_name, course_id from course)
     as foo group by dept_name order by count(course_id);
---c
+
 --d
-select * from instructor where dept_name in ('Biology', 'Philosophy', 'Music');
 --e
+select * from instructor where dept_name in ('Biology', 'Philosophy', 'Music');
+--f
 select ID, name from instructor where ID in(select ID from teaches where year = 2018 and
             id not in (select id from teaches where year = 2017));
 
@@ -45,7 +47,7 @@ select ID, name from instructor where ID in(select ID from teaches where year = 
 --a
 select distinct id, name from student where id in
         (select id from takes where grade in ('A','A-') and
-          course_id in(select course_id from course where course.dept_name = 'Comp.Sci')) order by name;
+          course_id in(select course_id from course where course.dept_name = 'Comp. Sci.')) order by name;
 --b
 select distinct i_id from advisor where s_id in (select id from takes where grade not in ('A','A-','B+','B'));
 --c
