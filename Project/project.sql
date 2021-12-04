@@ -33,12 +33,14 @@ create table Employee(
                      on DELETE cascade on update cascade
 );
 create table Vehicle(
+    B_Name varchar(50) not null references brand(B_Name),
     M_name varchar(30) not null ,
     V_VIN varchar(10) unique not null ,
     V_Year varchar(4) not null ,
     V_Complectation varchar(20) not null ,
     V_Status varchar(20) not null ,
     V_Price_in_$ dec(10,2) not null ,
+    Contructed_date date,
     primary key (V_VIN),
     foreign key (M_name) references Model(M_Name)
                     on DELETE cascade on update cascade
@@ -75,7 +77,8 @@ create table Supply_Info(
     V_VIN varchar(10) primary key not null references Vehicle(V_VIN),
     Sup_Name varchar(30) not null references Suppliers(Sup_Name),
     COMP_ID varchar(3) not null ,
-    Veh_Part varchar(30)
+    Veh_Part varchar(30),
+    Sup_Date date
 );
 --drop table supply_info;
 create table Dealers(
@@ -103,8 +106,9 @@ create table Sale_info(
     Sale_ID varchar(3) not null ,
     C_ID varchar(3) not null ,
     D_ID varchar(3) not null ,
+    B_Name varchar(50) not null references brand(B_Name),
     V_VIN varchar(10) not null ,
-    Date timestamp not null ,
+    Date date not null ,
     primary key (Sale_ID),
     foreign key (C_ID) references customers(C_ID),
     foreign key (D_ID) references dealers(D_ID),

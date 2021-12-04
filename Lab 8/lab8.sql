@@ -28,7 +28,7 @@ create function TF(num int) returns bool as
     $$
 language plpgsql;
 drop function TF(num int);
-select TF(0);
+select TF(5);
 create table password(
     password varchar(20),
     len int

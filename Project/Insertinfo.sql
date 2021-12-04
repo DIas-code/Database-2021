@@ -16,93 +16,93 @@ insert into Model values ('Aventador','Coupe roadster','Lamborghini');
 insert into Model values ('Spark','Hatchback','Chevrolet');
 
 --LC300
-insert into Vehicle values ('Land Cruiser 300','TLC300X001','2021','Basic','Vitrine',60000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X001','2021','Basic','Vitrine',60000,'2021-01-01');
 insert into Options values ('TLC300X001','Red','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X002','2021','Basic','Sold',60000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X002','2021','Basic','Sold',60000,'2021-01-01');
 insert into Options values ('TLC300X002','Black','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X003','2021','Premium','Ordered',75000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X003','2021','Premium','Ordered',75000,'2021-01-01');
 insert into Options values ('TLC300X003','Red-Black','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X004','2021','Premium','Sold',75000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X004','2021','Premium','Sold',75000,'2021-01-01');
 insert into Options values ('TLC300X004','White-Black','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X005','2021','Basic','Available',60000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X005','2021','Basic','Available',60000,'2021-03-01');
 insert into Options values ('TLC300X005','Red','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X006','2021','Basic','Available',60000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X006','2021','Basic','Available',60000,'2021-03-01');
 insert into Options values ('TLC300X006','Black','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X007','2021','Premium','Available',75000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X007','2021','Premium','Available',75000,'2021-03-01');
 insert into Options values ('TLC300X007','Red-Black','5.7-litre petrol V8','10-speed automatic gearbox');
-insert into Vehicle values ('Land Cruiser 300','TLC300X008','2021','Premium','Available',75000);
+insert into Vehicle values ('Toyota','Land Cruiser 300','TLC300X008','2021','Premium','Available',75000,'2021-03-01');
 insert into Options values ('TLC300X008','White-Black','5.7-litre petrol V8','10-speed automatic gearbox');
 
 --Coaster
-insert into Vehicle values ('Coaster','CoaX001','2021','Basic-23','Vitrine',45000);
+insert into Vehicle values ('Toyota','Coaster','CoaX001','2021','Basic-23','Vitrine',45000,'2021-01-01');
 insert into Options values ('CoaX001','White-Blue','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX002','2021','Basic-29','Sold',48000);
+insert into Vehicle values ('Toyota','Coaster','CoaX002','2021','Basic-29','Sold',48000,'2021-01-01');
 insert into Options values ('CoaX002','White','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX003','2020','Basic-23','Available',45000);
+insert into Vehicle values ('Toyota','Coaster','CoaX003','2020','Basic-23','Available',45000,'2020-02-01');
 insert into Options values ('CoaX003','White-Brown','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX004','2020','Basic-29','Available',48000);
+insert into Vehicle values ('Toyota','Coaster','CoaX004','2020','Basic-29','Available',48000,'2020-02-01');
 insert into Options values ('CoaX004','White','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX005','2016','Basic-23','Available',45000);
+insert into Vehicle values ('Toyota','Coaster','CoaX005','2016','Basic-23','Available',45000,'2016-11-01');
 insert into Options values ('CoaX005','White-Blue','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX006','2018','Basic-29','Available',48000);
+insert into Vehicle values ('Toyota','Coaster','CoaX006','2018','Basic-29','Available',48000,'2018-09-01');
 insert into Options values ('CoaX006','White','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX007','2019','Basic-23','Available',45000);
+insert into Vehicle values ('Toyota','Coaster','CoaX007','2019','Basic-23','Available',45000,'2019-04-01');
 insert into Options values ('CoaX007','White-Brown','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
-insert into Vehicle values ('Coaster','CoaX008','2017','Basic-29','Available',48000);
+insert into Vehicle values ('Toyota','Coaster','CoaX008','2017','Basic-29','Available',48000,'2017-04-01');
 insert into Options values ('CoaX008','White','4.0L Turbo Diesel Engine','6 speed Aisin AH15/16 manual');
 
 
 --LC
-insert into Vehicle values ('LC 500','LCX001','2021','Premium','Vitrine',38000);
+insert into Vehicle values ('Lexus','LC 500','LCX001','2021','Premium','Vitrine',38000,'2021-01-01');
 insert into Options values ('LCX001','White','GSE 5.0-litre V8 engine','10-speed automatic');
-insert into Vehicle values ('LC 500','LCX002','2020','Premium','Sold',38000);
+insert into Vehicle values ('Lexus','LC 500','LCX002','2020','Premium','Sold',38000,'2020-05-01');
 insert into Options values ('LCX002','White','GSE 5.0-litre V8 engine','10-speed automatic');
-insert into Vehicle values ('LC 500','LCX003','2020','Premium','Sold',38000);
+insert into Vehicle values ('Lexus','LC 500','LCX003','2020','Premium','Sold',38000,'2020-05-01');
 insert into Options values ('LCX003','White','GSE 5.0-litre V8 engine','10-speed automatic');
-insert into Vehicle values ('LC 500','LCX004','2019','Premium','Available',38000);
+insert into Vehicle values ('Lexus','LC 500','LCX004','2019','Premium','Available',38000,'2019-10-01');
 insert into Options values ('LCX004','White','GSE 5.0-litre V8 engine','10-speed automatic');
-insert into Vehicle values ('LC 500','LCX005','2018','Premium','Available',38000);
+insert into Vehicle values ('Lexus','LC 500','LCX005','2018','Premium','Available',38000,'2018-12-01');
 insert into Options values ('LCX005','White','GSE 5.0-litre V8 engine','10-speed automatic');
-insert into Vehicle values ('LC 500','LCX006','2018','Premium','Available',38000);
+insert into Vehicle values ('Lexus','LC 500','LCX006','2018','Premium','Available',38000,'2018-12-01');
 insert into Options values ('LCX006','White','GSE 5.0-litre V8 engine','10-speed automatic');
 
 --Tiguan
-insert into Vehicle values ('Tiguan','TiguanX001','2021','Premium','Vitrine',27000);
+insert into Vehicle values ('Volkswagen','Tiguan','TiguanX001','2021','Premium','Vitrine',27000,'2021-01-01');
 insert into Options values ('TiguanX001','White','4.0-litre V8 engine','8-speed automatic');
-insert into Vehicle values ('Tiguan','TiguanX002','2021','Basic','Available',24000);
+insert into Vehicle values ('Volkswagen','Tiguan','TiguanX002','2021','Basic','Available',24000,'2021-02-01');
 insert into Options values ('TiguanX002','White','4.0-litre V8 engine','8-speed automatic');
-insert into Vehicle values ('Tiguan','TiguanX003','2021','Basic','Available',24000);
+insert into Vehicle values ('Volkswagen','Tiguan','TiguanX003','2021','Basic','Available',24000,'2021-03-01');
 insert into Options values ('TiguanX003','White','4.0-litre V8 engine','8-speed automatic');
-insert into Vehicle values ('Tiguan','TiguanX004','2021','Premium','Available',27000);
+insert into Vehicle values ('Volkswagen','Tiguan','TiguanX004','2021','Premium','Available',27000,'2021-04-01');
 insert into Options values ('TiguanX004','White','4.0-litre V8 engine','8-speed automatic');
-insert into Vehicle values ('Tiguan','TiguanX005','2021','Premium','Available',27000);
+insert into Vehicle values ('Volkswagen','Tiguan','TiguanX005','2021','Premium','Available',27000,'2021-04-01');
 insert into Options values ('TiguanX005','White','4.0-litre V8 engine','8-speed automatic');
 
 --Aventador
-insert into Vehicle values ('Aventador','AvenX001','2021','Luxe','Vitrine',300000);
+insert into Vehicle values ('Lamborghini','Aventador','AvenX001','2021','Luxe','Vitrine',300000,'2021-01-01');
 insert into Options values ('AvenX001','Black','6.5 L L539 V12','7-speed ISR Graziano automated manual');
-insert into Vehicle values ('Aventador','AvenX002','2021','Luxe','Sold',300000);
+insert into Vehicle values ('Lamborghini','Aventador','AvenX002','2021','Luxe','Sold',300000,'2021-02-01');
 insert into Options values ('AvenX002','Black-Red','6.5 L L539 V12','7-speed ISR Graziano automated manual');
-insert into Vehicle values ('Aventador','AvenX003','2021','Luxe','Ordered',300000);
+insert into Vehicle values ('Lamborghini','Aventador','AvenX003','2021','Luxe','Ordered',300000,'2021-03-01');
 insert into Options values ('AvenX003','Yellow','6.5 L L539 V12','7-speed ISR Graziano automated manual');
-insert into Vehicle values ('Aventador','AvenX004','2021','Luxe','Ordered',300000);
+insert into Vehicle values ('Lamborghini','Aventador','AvenX004','2021','Luxe','Ordered',300000,'2021-04-01');
 insert into Options values ('AvenX004','Blue','6.5 L L539 V12','7-speed ISR Graziano automated manual');
-insert into Vehicle values ('Aventador','AvenX005','2021','Luxe','Available',300000);
+insert into Vehicle values ('Lamborghini','Aventador','AvenX005','2021','Luxe','Available',300000,'2021-05-01');
 insert into Options values ('AvenX005','Red','6.5 L L539 V12','7-speed ISR Graziano automated manual');
-insert into Vehicle values ('Aventador','AvenX006','2021','Luxe','Available',300000);
+insert into Vehicle values ('Lamborghini','Aventador','AvenX006','2021','Luxe','Available',300000,'2021-06-01');
 insert into Options values ('AvenX006','Black','6.5 L L539 V12','7-speed ISR Graziano automated manual');
 
 
 --Spark
-insert into Vehicle values ('Spark','SparkX001','2021','Basic','Vitrine',18000);
+insert into Vehicle values ('Chevrolet','Spark','SparkX001','2021','Basic','Vitrine',18000,'2021-01-01');
 insert into Options values ('SparkX001','Black','1.4L I-4 DOHC','5-speed manual');
-insert into Vehicle values ('Spark','SparkX002','2021','Basic','Sold',18000);
+insert into Vehicle values ('Chevrolet','Spark','SparkX002','2021','Basic','Sold',18000,'2021-02-01');
 insert into Options values ('SparkX002','Black','1.4L I-4 DOHC','5-speed manual');
-insert into Vehicle values ('Spark','SparkX003','2021','Basic','Sold',18000);
+insert into Vehicle values ('Chevrolet','Spark','SparkX003','2021','Basic','Sold',18000,'2021-02-01');
 insert into Options values ('SparkX003','Black','1.4L I-4 DOHC','5-speed manual');
-insert into Vehicle values ('Spark','SparkX004','2021','Basic','Available',18000);
+insert into Vehicle values ('Chevrolet','Spark','SparkX004','2021','Basic','Available',18000,'2021-02-01');
 insert into Options values ('SparkX004','Black','1.4L I-4 DOHC','5-speed manual');
-insert into Vehicle values ('Spark','SparkX005','2021','Basic','Available',18000);
+insert into Vehicle values ('Chevrolet','Spark','SparkX005','2021','Basic','Available',18000,'2021-02-01');
 insert into Options values ('SparkX005','Black','1.4L I-4 DOHC','5-speed manual');
 
 --Employee
@@ -185,7 +185,6 @@ insert into supply_info values ('LCX003','GetLX','3','Engine');
 insert into supply_info values ('LCX004','GetLX','3','Engine');
 insert into supply_info values ('LCX005','GetLX','3','Engine');
 insert into supply_info values ('LCX006','GetLX','3','Engine');
-insert into supply_info values ('LCX006','GetLX','3','Engine');
 insert into supply_info values ('TiguanX001','GetVW','4','Transmission');
 insert into supply_info values ('TiguanX002','GetVW','4','Transmission');
 insert into supply_info values ('TiguanX003','GetVW','4','Transmission');
@@ -221,8 +220,8 @@ insert into storage values ('1','1','TLC300X006','Available');
 insert into storage values ('1','1','TLC300X007','Available');
 insert into storage values ('1','1','TLC300X008','Available');
 insert into storage values ('2','2','CoaX001','Vitrine');
-insert into storage values ('2','2','CoaX002','Sold');
-insert into storage values ('2','2','CoaX003','Available');
+insert into storage values ('2','2','CoaX002','Available');
+insert into storage values ('2','2','CoaX003','Sold');
 insert into storage values ('2','2','CoaX004','Available');
 insert into storage values ('2','2','CoaX005','Available');
 insert into storage values ('2','2','CoaX006','Available');
@@ -258,9 +257,12 @@ insert into customers values ('3','Daniel','Abd','87755555555','Atyrau','Chexov'
 insert into customers values ('4','Arman','Maratov','87754555555','Aktau','15','3','M',30000);
 
 --Sale
-insert into sale_info values ('1','1','1','TLC300X004','2021-12-04 09:40');
-insert into sale_info values ('2','1','5','AvenX002','2021-7-15 15:15');
-insert into sale_info values ('3','2','3','LCX002','2020-9-27 17:26');
-insert into sale_info values ('4','3','3','LCX003','2020-4-01 11:45');
-insert into sale_info values ('5','3','1','TLC300X003','2021-7-21 13:08');
-insert into sale_info values ('6','4','2','CoaX003','2021-5-19 14:58');
+insert into sale_info values ('1','1','1','Toyota','TLC300X004','2021-12-04');
+insert into sale_info values ('2','1','5','Lamborghini','AvenX002','2021-7-15');
+insert into sale_info values ('3','2','3','Lexus','LCX002','2020-9-27');
+insert into sale_info values ('4','3','3','Lexus','LCX003','2020-4-01');
+insert into sale_info values ('5','3','1','Toyota','TLC300X002','2021-7-21');
+insert into sale_info values ('6','4','2','Toyota','CoaX003','2020-5-19');
+insert into sale_info values ('7','4','6','Chevrolet','SparkX002','2021-5-19');
+insert into sale_info values ('8','4','6','Chevrolet','SparkX003','2021-5-19');
+
